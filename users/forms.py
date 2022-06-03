@@ -19,7 +19,7 @@ class UserUpdateForm(forms.ModelForm):
 
     class Meta:
         model = User
-        fields = ['username','email']  #this is the same order in which fields are displayed in registration form
+        fields = ['username','email']  #this is the same order in which fields are displayed in updation form
 
 
 class ProfileUpdateForm(forms.ModelForm):
